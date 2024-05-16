@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Signika", sans-serif;
+  color: #000 !important;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+nav.navbar.navbar-default {
+  background-color: black;
+}
+
+ul.nav.navbar-nav.navbar-right {
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #7dc642;
+}
+
+.carousel-inner > .item > img {
+  filter: brightness(75%);
+}
+
+.carousel-caption h1 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.carousel-caption p {
+  font-size: 110px;
+  text-transform: capitalize;
+  font-family: "Akaya Telivigala", system-ui;
+  margin-bottom: 100px;
+}
+
+.carousel-caption a {
+  border-radius: 50px;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.carousel-caption a:first-of-type {
+  border-radius: 50px;
+  font-size: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+
+.green-btn {
+  background-color: #7dc642;
+}
+
+.orange-btn {
+  background-color: #ffb500;
+}
+
+.carousel-caption .green-btn {
+  padding-left: 15px;
+}
+
+.home-about .container .row .col-md-5 {
+  background-image: url(../Images/icon/logoCorn\ 1.png);
+  background-repeat: no-repeat;
+}
+
+.home-about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.home-about .container .row .col-md-5 h1 {
+  font-size: 35px;
+  color: #7dc642;
+}
+
+.home-about .container .row .col-md-5 h2 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.home-about .container .row .col-md-5 p {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.home-about .container .row .col-md-5 {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home-about-item {
+  background-color: #7dc642;
+}
+
+.home-about-item {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.home-about-img img {
+  padding-top: 30px;
+}
+
+.home-about-info p {
+  padding-bottom: 30px;
+}
+
+.home-about-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-contact {
+  color: #fff;
+  background-image: url(../Images/Banner/Banner-Transformed/Banner2.jpeg);
+  background-repeat: no-repeat;
+}
+
+.home-contact h1 {
+  font-size: 36px;
+  padding-top: 105px;
+}
+
+.home-contact h2 {
+  font-size: 90px;
+  margin: auto;
+  width: 70%;
+  font-family: "Akaya Telivigala", system-ui;
+}
+
+.home-contact h3 {
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.home-contact button {
+  background-color: #ffb500;
+  width: 180px;
+  height: 70px;
+  border-radius: 100px;
+  margin-top: 50px;
+  margin-bottom: 110px;
+  border: 1px solid blue;
+}
+
+.home-contact button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Signika", sans-serif;
+  font-size: 24px;
+}
+.home-product {
+  background-image: url(../Images/Banner/Banner-page/DeWatermark\ 2.png);
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  margin-top: -22px;
+}
+
+.home-product h1 {
+  font-size: 36px;
+  color: #7dc642;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+.home-product p {
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.product-item {
+  max-width: 223px;
+}
+
+.product-item-img {
+  max-width: 223px;
+  height: 223px;
+}
+
+.product-item-img img {
+  max-width: 223px;
+  height: 223px;
+}
+
+.product-title h2 {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: black;
+  margin-top: 0px;
+}
+
+.current-price {
+  font-size: 18px;
+  color: #7dc642;
+}
+
+.original-price {
+  font-size: 14px;
+}
+
+.product-info {
+  background-color: #f5f5f5;
+  max-width: 223px;
+}
+
+.product-info:hover {
+  background-color: lightgreen;
+  margin-top: 20px;
+  position: relative;
+  color: white;
+}
+
+.product-item {
+  margin-bottom: 15px;
+}
+
+.home-sale .container .row .col-md-6 h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7dc642;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.home-sale .container .row .col-md-6 h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.home-sale .container .row .col-md-6 h3 {
+  font-size: 36px;
+}
+
+.home-sale .container .row .col-md-6 h4 {
+  font-size: 16px;
+}
+
+.home-sale .container .row .col-md-6 p {
+  font-size: 16px;
+}
+
+.home-sale .container .row .col-md-6 button {
+  width: 180px;
+  height: 70px;
+  border-radius: 100px;
+  background-color: #ffb500;
+  border: 1px solid lightblue;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.home-sale .container .row .col-md-6 button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Signika", sans-serif;
+  font-size: 24px;
+}
+
+.home-sale .container .row .col-md-6 {
+  padding: 25px;
+}
+
+.home-sale .container .row .col-md-6 img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.home-review {
+  background-image: url(../Images/Banner/Banner-page/htesti_bg_img\ 2.png);
+  background-repeat: no-repeat;
+}
+
+.home-review .text-center h1 {
+  font-size: 50px;
+  font-family: "Akaya Telivigala", system-ui;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.home-review .text-center .container .col-md-4 img {
+  padding-bottom: 50px;
+}
+
+.home-footer {
+  color: #fff;
+  background-color: black;
+}
+
+.home-footer .container .row .img-banner {
+  margin: auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.booter-title {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.booter-item p {
+  font-size: 16px;
+}
+
+.gallery .col-md-4 img {
+  width: 105px;
+  height: 105px;
+  padding-bottom: 30px;
+}
+
+.gallery .col-md-4 {
+  padding-left: 0px;
+}
+
+.banner-about {
+  width: 100%;
+  background-image: url(../Images/Banner/Banner-Transformed/breadcrumb-bg.jpg);
+  color: #fff;
+  height: 400px;
+  margin-top: -20px;
+}
+
+.banner-about .text-center h1 {
+  padding-top: 150px;
+  font-size: 64px;
+}
+
+.banner-about .text-center p {
+  font-size: 24px;
+}
+
+.about-about .container .row .col-md-8 .about-title {
+  font-size: 50px;
+  padding-top: 15px;
+}
+
+.about-about .container .row .col-md-8 .about-heading {
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.about-about .container .row .col-md-8 p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.about-about .container .row .col-md-8 h3 {
+  font-size: 16px;
+  color: lightgray;
+}
+
+.about-about .container .row .col-md-4 {
+  margin-top: 30px;
+}
+
+.alticle-item-title p {
+  font-size: 20px;
+  font-family: "Akaya Telivigala", system-ui;
+}
+
+.alticle-item-title {
+  padding-top: 15px;
+  background-color: #f5f5f5;
+  padding-bottom: 15px;
+}
+
+.alticle-item-table ul {
+  padding-left: 15px;
+}
+
+.alticle-item-table ul li a {
+  color: #000;
+  font-size: 16px;
+}
+
+.alticle-item-product {
+  background-color: #fff !important;
+}
+
+.alticle-item-product .col-md-6 p {
+  margin-top: 1px;
+  font-size: 14px;
+  color: #7dc642;
+}
+
+.alticle-item-product .col-md-8 p {
+  font-size: 1px;
+  color: #7dc642;
+}
+
+.alticle-item-product .col-md-8 .col-md-6 h1 {
+  font-size: 17px;
+}
+
+.alticle-item-product .col-md-8 .col-md-6 h2 {
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.article-item .gallery {
+  margin-top: -15px;
+}
+
+.product-product .container .row .col-md-4,
+.product-product .container .row .col-md-8 {
+  margin-top: 70px;
+}
+
+.register-register,
+.contact-contact {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.register-register .contact-contact .container .row .col-md-8 h6 {
+  font-size: 50px;
+}
+
+#register-text a {
+  color: #000;
+}
+
+#green-text {
+  color: #7dc642;
+  font-size: 24px;
+}
+
+.error {
+  color: red;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.form-group label {
+  font-size: 24px;
+}
+
+#register-text {
+  font-size: 50px;
+}
+
+#form-register button {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 25px;
+  margin-top: 50px;
+  background-color: #7dc642;
+  color: #fff;
+}
+
+#form-register button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#h1-text {
+  color: #000;
+}
+
+.original-price .price-amount {
+  text-decoration: line-through;
+}
+
+#h2-text {
+  text-decoration: line-through;
+}

@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Signika", sans-serif;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+nav.navbar.navbar-default {
+  background-color: black;
+}
+
+ul.nav.navbar-nav.navbar-right {
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #7dc642;
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+  max-height: 850px;
+  box-sizing: border-box;
+  filter: brightness(75%);
+}
+
+.carousel-inner .item .text-center h1 {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.carousel-caption h1 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.carousel-caption p {
+  text-transform: capitalize;
+  font-family: "Akaya Telivigala", system-ui;
+  font-size: 110px;
+  margin-bottom: 100px;
+}
+
+.carousel-caption .d-flex p a {
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 180px;
+  height: 70px;
+  border-radius: 100px;
+  font-family: "Signika", sans-serif;
+}
+
+.green-btn {
+  background-color: #7dc642;
+}
+
+.orange-btn {
+  background-color: #ffb500;
+}
+
+.about {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.left-about {
+  background-image: url(../Images/icon/logoCorn\ 1.png);
+  background-repeat: no-repeat;
+  width: 45%;
+  margin: auto;
+}
+
+.right-about {
+  width: 55%;
+}
+
+.left-about h1 {
+  font-size: 35px;
+  color: #7dc642;
+}
+
+.left-about h2 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.left-about p {
+  font-size: 16px;
+}
+
+.contact {
+  color: #fff;
+  background-image: url(/Images/Banner/Banner-Transformed/Banner2.jpeg);
+  width: 100%;
+}
+
+.contact h1 {
+  font-size: 36px;
+  padding-top: 105px;
+}
+
+.contact h2 {
+  margin: auto;
+  font-size: 90px;
+  width: 70%;
+  font-family: "Akaya Telivigala", system-ui;
+}
+
+.contact h3 {
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.contact button {
+  background-color: #ffb500;
+  width: 180px;
+  height: 70px;
+  border-radius: 100px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 110px;
+  border: 1px solid blue;
+}
+
+.contact button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Signika", sans-serif;
+  font-size: 24px;
+}
+
+.product-item {
+  max-width: 223px;
+}
+
+.product .product-banner img {
+  width: 100%;
+  position: absolute;
+  opacity: 10%;
+  height: 700px;
+}
+
+.product .container .text-center {
+  position: relative;
+}
+
+.product .container .text-center h1 {
+  font-size: 36px;
+  color: #7dc642;
+  font-weight: bold;
+}
+
+.product .container .text-center p {
+  font-size: 50px;
+  font-weight: bold;
+  width: 605px;
+  margin: auto;
+}
+
+.product-item-img img {
+  max-width: 223px;
+  max-height: 223px;
+}
+
+.product-info .product-title h2 {
+  font-size: 16px;
+  font-weight: lighter;
+  color: black;
+}
+
+.current-price {
+  font-size: 18px;
+  color: #7dc642;
+}
+
+.original-price {
+  font-size: 14px;
+}
+
+.item-content {
+  display: flex;
+  gap: 81px;
+  margin-top: 90px;
+}
+
+.sale {
+  width: 100%;
+}
+
+.left-sale {
+  margin-top: 150px;
+  width: 50%;
+}
+
+.left-sale h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7dc642;
+  text-transform: uppercase;
+}
+
+.left-sale h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.left-sale h3 {
+  font-size: 36px;
+}
+
+.left-sale h4 {
+  font-size: 16px;
+}
+
+.left-about p {
+  font-size: 16px;
+}
+
+.left-sale button {
+  width: 180px;
+  height: 70px;
+  border-radius: 100px;
+  background-color: #ffb500;
+  border: 1px solid lightblue;
+}
+
+.left-sale button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Signika", sans-serif;
+  font-size: 24px;
+}
+
+.right-sale {
+  margin-left: 100px;
+  margin-top: 90px;
+  width: 50%;
+  margin-bottom: 90px;
+}
+
+.right-sale img {
+  max-width: 500px;
+  max-height: 570px;
+}
+
+.review {
+  background-image: url(/Images/Banner/Banner-Transformed/htesti_bg_img.png);
+  width: 100%;
+}
+
+.customer-review {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.review .text-center h1 {
+  padding-top: 100px;
+  font-size: 50px;
+  font-family: "Akaya Telivigala", system-ui;
+  color: #fff;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.booter {
+  color: #fff;
+  background-color: black;
+}
+
+.booter-title {
+  text-transform: uppercase;
+}
+
+.fisrt-line-gallery img,
+.second-line-gallery img {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 75px;
+  height: 75px;
+}
+.booter-under {
+  display: flex;
+  justify-content: center;
+}
+
+.booter-logo {
+  padding-top: 50px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.booter-title {
+  font-size: 34px;
+}
+
+.booter-under .booter-info {
+  border: 1px solid black;
+  margin: 15px;
+  width: 250px;
+}
+
+.booter-item p {
+  font-size: 16px;
+}
+
+.booter-gallery {
+  margin-top: 15px;
+  border: 1px solid black;
+}
+
+.banner-about {
+  width: 100%;
+  background-image: url(/Images/Banner/Banner-Transformed/breadcrumb-bg.jpg);
+  color: #fff;
+  height: 400px;
+  margin-top: -20px;
+}
+
+.banner-about .text-center h1 {
+  padding-top: 150px;
+  font-size: 64px;
+}
+
+.banner-about .text-center p {
+  font-size: 24px;
+}
+
+.about-about {
+  width: 100%;
+}
+
+.left-about-about {
+  width: 80%;
+}
+
+.right-about-about {
+  width: 20%;
+}
+
+.about-about .container {
+  display: flex;
+}
